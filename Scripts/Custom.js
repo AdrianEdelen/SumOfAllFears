@@ -4,11 +4,11 @@
 	let arr = new Array;
 	arr = [10, 15, 3, 7];
 	if (checkNum(arr, kNum) === true) {
-		document.getElementById("result").innerHTML = "your number, " + kNum +
-			", does have numbers in the array that equal it.";
+		document.getElementById("result").innerHTML = "your number (" + kNum +
+			"), does have numbers in the array that equal it.";
 	} else {
-		document.getElementById("result").innerHTML = "your number, " + kNum +
-			", does not have numbers in the array that equal it.";
+		document.getElementById("result").innerHTML = "your number (" + kNum +
+			"), does not have numbers in the array that equal it.";
 	}
 })
 
